@@ -1,0 +1,33 @@
+{
+    "name": "lazypack/bridging",
+    "description": "library karya anak bangsa",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Triwaskito\\Compack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tri Waskito",
+            "email": "triwaskito.ictsa@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "nullpunkt/lz-string-php": "^1.3",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bpjs\\Bridging\\": "src/Bpjs/",
+            "Kemkes\\Bridging\\": "src/Kemkes",
+            "Satusehat\\Bridging\\": "src/Satusehat",
+            "Orthanc\\Bridging\\": "src/Orthanc",
+            "Saapi\\Bridging\\": "src/Saapi",
+            "Inhealth\\Bridging\\": "src/Inhealth"
+        }
+    }
+}
